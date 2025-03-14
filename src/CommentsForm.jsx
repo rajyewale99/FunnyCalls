@@ -4,7 +4,7 @@ import { useState } from "react";
 const validate = values =>{
     const errors = {};
     if (!values.username) {
-      errors.username = "Username cannot be empty";
+      errors.username = "username cannot be empty";
     }
     return errors;
   };
